@@ -12,9 +12,9 @@
  * Log can be enabled to show the generation time. But it also makes the program run a little slow 
 
 ## Videos
-Images Generated: http://www.youtube.com/watch?v=OhPdifmZvpQ
-Demo: http://www.youtube.com/watch?v=HH0sdF4m3vI
-Old Demo: http://www.youtube.com/watch?v=S90lrVJvUhA
+ * Images Generated: http://www.youtube.com/watch?v=OhPdifmZvpQ
+ * Demo: http://www.youtube.com/watch?v=HH0sdF4m3vI
+ * Old Demo: http://www.youtube.com/watch?v=S90lrVJvUhA
  
 #一个用于生成Julia Set图的Java Swing小程序
 
