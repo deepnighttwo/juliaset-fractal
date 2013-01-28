@@ -1,0 +1,117 @@
+<editor>
+	<beanclass> com.deepnighttwo.gen.imagegen.JuliaSetArgs
+	</beanclass>
+
+	<section sectionLabel="Basic_Configuration">
+		<proptery fieldName="mandelbrot" componentType="MandelbrotPanel"></proptery>
+
+		<proptery propLabel="Select_Constant_value" fieldName="value"
+			componentType="TextLine"></proptery>
+		<proptery propLabel="r" fieldName="constReal" componentType="SpinnerDouble">
+			<value>-1.285</value>
+			<step>0.001</step>
+			<max>3</max>
+			<min>-3</min>
+		</proptery>
+		<proptery propLabel="i" fieldName="constImaginary"
+			componentType="SpinnerDouble">
+			<value>0</value>
+			<step>0.001</step>
+			<max>3</max>
+			<min>-3</min>
+		</proptery>
+	</section>
+
+	<section sectionLabel="Image_Configuration">
+		<proptery propLabel="Unit_Size" fieldName="realEnd"
+			componentType="SpinnerDouble">
+			<value>1</value>
+			<step>0.1</step>
+			<max>7</max>
+			<min>1</min>
+		</proptery>
+
+		<proptery propLabel="Precision(100_is_preferred)" fieldName="precision"
+			componentType="SpinnerInt">
+			<value>100</value>
+			<step>10</step>
+			<max>1000</max>
+			<min>10</min>
+		</proptery>
+
+
+		<proptery propLabel="Image_Width(Pixel)" fieldName="imageWidth"
+			componentType="SpinnerInt">
+			<value>1000</value>
+			<step>100</step>
+			<max>5000</max>
+			<min>100</min>
+		</proptery>
+
+		<proptery propLabel="Image_Height(Pixel)" fieldName="imageHeight"
+			componentType="SpinnerInt">
+			<value>1000</value>
+			<step>100</step>
+			<max>5000</max>
+			<min>100</min>
+		</proptery>
+	</section>
+
+	<section sectionLabel="Color_Configuration">
+		<proptery propLabel="Start_Color" fieldName="startColor"
+			componentType="ColorPicker">
+			<color>255;0;0</color>
+			<!-- <color>0;55;205</color> -->
+			<buttonTxt>Select_As_Start_Color</buttonTxt>
+		</proptery>
+
+		<proptery propLabel="End_Color" fieldName="endColor"
+			componentType="ColorPicker">
+			<color>0;92;236</color>
+			<!-- <color>205;255;255</color> -->
+			<buttonTxt>Select_As_End_Color</buttonTxt>
+		</proptery>
+
+		<proptery propLabel="Color_Solution" fieldName="colorStyle"
+			componentType="MultiSelection">
+			<labels>Solution_1;Solution_2;Default</labels>
+		</proptery>
+
+		<proptery propLabel="Color_Change_Step" fieldName="colorStep"
+			componentType="SpinnerInt">
+			<value>10</value>
+			<step>1</step>
+			<max>1000</max>
+			<min>1</min>
+		</proptery>
+	</section>
+
+
+	<section sectionLabel="Performance_Turning">
+
+		<proptery propLabel="Thread_Count" fieldName="threadCount"
+			componentType="SpinnerInt">
+			<value>3</value>
+			<step>1</step>
+			<max>10</max>
+			<min>1</min>
+		</proptery>
+
+		<proptery propLabel="Paint_Unit" fieldName="paintUnit"
+			componentType="SpinnerInt">
+			<value>50</value>
+			<step>10</step>
+			<max>9999999</max>
+			<min>1</min>
+		</proptery>
+
+		<proptery propLabel="threshold" fieldName="threshold"
+			componentType="SpinnerInt">
+			<value>100000</value>
+			<step>1000</step>
+			<max>100000000</max>
+			<min>1000</min>
+		</proptery>
+	</section>
+
+</editor>

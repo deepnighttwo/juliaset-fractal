@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editor>
+	<beanclass>com.deepnighttwo.guibuilder.test.TestBean</beanclass>
+	<section sectionLabel="This is a section">
+		<proptery propLabel="This is a long line"
+			filedName="value" componentType="TextLine"></proptery>
+		<proptery propLabel="Int value" filedName="value"
+			componentType="SpinnerInt">
+			<value>5</value>
+			<step>1</step>
+			<max>10</max>
+			<min>0</min>
+		</proptery>
+
+		<proptery propLabel="Double Value" filedName="dValue"
+			componentType="SpinnerDouble">
+			<value>1.5</value>
+			<step>0.01</step>
+			<max>10</max>
+			<min>1</min>
+		</proptery>
+	</section>
+
+	<section sectionLabel="This is another section">
+		<proptery propLabel="Boolean value" filedName="checked"
+			componentType="SingleCheck">
+			<value>true</value>
+		</proptery>
+
+		<proptery propLabel="Selection value" filedName="selection"
+			componentType="MultiSelection">
+			<labels>Solution_1;Solution_2;Solution_3</labels>
+		</proptery>
+
+		<proptery propLabel="Color value" filedName="color"
+			componentType="ColorPicker">
+			<color>0;0;222</color>
+			<buttonTxt>Start_Color</buttonTxt>
+		</proptery>
+	</section>
+
+</editor>

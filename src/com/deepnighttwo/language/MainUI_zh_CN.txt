@@ -1,0 +1,65 @@
+#======native2ascii.exe -encoding UTF-8  "MainUI_zh_CN.txt" "MainUI_zh_CN.properties"
+
+Julia_Set_Window=Julia Set窗口
+
+#====================Basic Configuration===========================
+Basic_Configuration=基本配置
+
+Select_Constant_value=选择常量的实部和虚部
+Constant_Value_is=常量为
+r=r =
+i=i =
+Ignore=忽略
+Instant=即时选值
+Continuous=连续选值
+
+#====================Image Configuration===========================
+Image_Configuration=图像配置
+
+Unit_Size=图像大小
+Precision(100_is_preferred)=精度（推荐100）
+Image_Width(Pixel)=图像宽度（像素）
+Image_Height(Pixel)=图像高度（像素）
+Using_high_precision=使用高精度计算
+
+#====================Color Configuration===========================
+Color_Configuration=颜色配置
+Select_As_Start_Color=选为开始颜色并关闭
+Select_As_End_Color=选为结束颜色并关闭
+Solution_1=取色方案1
+Solution_2=取色方案2
+Solution_3=取色方案3
+Default=系统默认
+Start_Color=选择开始颜色：
+End_Color=选择结束颜色：
+Color_Solution=取色方案：
+Color_Change_Step=色变步长：
+
+#==================Performance Turning=============================
+Performance_Turning=性能调试
+Thread_Count=工作线程数
+Thread_Workload=任务单元
+Paint_Unit=任务大小
+threshold=出界阈值
+#====================Operation Configuration=======================
+
+Operation=操作
+
+help_btn=帮助...
+help_title=程序小提示
+help=<html><h2>操作指南</h2><h3><br>1) 鼠标滚轮可以放大缩小图像。左键可以使点击处居中。右键恢复初始状态。<br>2) 在右边的面板中可以对参数进行各种调整和进行各种操作。<br>3)为了得到最高性能，推荐在性能调试面板中将工作线程数设置为电脑的CPU核心数。<br>4) 基本设置中的数字决定了图像的形状。可以通过输入参数改变形状，也可以通过Mandelbrot选择参数，即时选值时根据鼠标位置，连续选值时需要通过按住鼠标左键拖拽。<br>5) 图像配置中的参数决定了图像的大小和比例。其中精度也会影响图像的颜色和细节。注意，如果图像太大可能会引起内存不足。<br>6) 颜色设置里的参数决定了图像的颜色。<br>7) 性能调试里推荐修改的就是工作线程数和任务大小。出界阈值对性能影响不大。如果工作线程设置为CPU核心数后，CPU利用率依然低，可以尝试减少任务大小的值。<br>8) 在操作面板里，可以根据选择的格式保存当前图像，图像大小是在图像配置中设置的。<br>9) 可以打开日志来监测生成图像的时间，但是这会稍微影响程序整体性能。</h3></html>
+Begin_to_Generate_Julia_Set=开始绘制Julia集
+Stop_Generating_Julia_Set=停止绘制Julia集
+Generating_Process=Julia集生成进度：
+Save_Image=保存图像
+OOM_ERR_MSG=图片尺寸过大，内存不足
+OOM_ERR_TITLE=内存不足
+Enable_Log=打开日志
+
+
+#====================Log Related =======================
+PERF_MSG=<html>计算时间为：<b>%1S</b>；图片大小为：<b>%3S</b>。<html>
+PERF_MSG_LOG=计算时间为：%1S；图片大小为：%3S。
+SHOW_DIALOG=显示日志窗口
+PERF_DIALOG_TITLE=图像绘制日志
+PERF_CLEAR=清空日志
