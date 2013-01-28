@@ -1,4 +1,4 @@
-# A Java Swing program for Julia Set image creation=
+# A Java Swing program for Julia Set image creation
 
 ## Tips and How to
  * Using mouse wheel to *room in or room out (This is really cool. Please have a try~)*. Left click can move the point to the center. Right click for reset.
